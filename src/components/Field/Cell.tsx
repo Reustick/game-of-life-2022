@@ -19,13 +19,7 @@ export const CellItem = styled.div`
   border: 1px solid #333;
 `
 
-export const Cell: FC<CellProps> = ({
-  x,
-  y,
-  cellId,
-  cellNumber,
-  onClick,
-}: CellProps) => {
+export const Cell: FC<CellProps> = ({ x, y, cellId, onClick }: CellProps) => {
   return (
     <CellItem
       data-testid={cellId}

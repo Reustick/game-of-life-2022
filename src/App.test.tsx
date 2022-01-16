@@ -10,7 +10,7 @@ describe('App', () => {
     render(<App />)
     screen.debug()
     expect(screen.getByRole('app')).toBeInTheDocument()
-    expect(screen.getAllByRole('CellItem')).toHaveLength(100)
+    expect(screen.getAllByRole('CellItem')).toHaveLength(1500)
   })
   test('cell should call callback', () => {
     render(<CellItem role="CellItem" onClick={onClick} data-testid={'0_3'} />)

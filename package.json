@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/Reustick/game-of-life-2022#readme",
   "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
@@ -34,8 +36,6 @@
     "@babel/preset-typescript": "^7.16.7",
     "@emotion/babel-plugin": "^11.7.2",
     "@emotion/jest": "^11.7.1",
-    "@emotion/react": "^11.7.1",
-    "@emotion/styled": "^11.6.0",
     "@storybook/addon-actions": "^6.4.9",
     "@storybook/addon-essentials": "^6.4.9",
     "@storybook/addon-links": "^6.4.9",

@@ -2,7 +2,9 @@ import React from 'react'
 import styled from '@emotion/styled'
 
 export const GenerationCounter = () => {
-  return <GenerationWrapper>Generation: </GenerationWrapper>
+  return (
+    <GenerationWrapper role="GenerationWrapper">Generation: </GenerationWrapper>
+  )
 }
 
 const GenerationWrapper = styled.div`

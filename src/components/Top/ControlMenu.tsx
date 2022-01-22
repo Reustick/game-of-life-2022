@@ -3,7 +3,7 @@ import styled from '@emotion/styled'
 
 export const ControlMenu = () => {
   return (
-    <ButtonWrapper>
+    <ButtonWrapper role="btnWrapper">
       <ButtonMenu>Run</ButtonMenu>
       <ButtonMenu>Pause</ButtonMenu>
       <ButtonMenu>Clear</ButtonMenu>

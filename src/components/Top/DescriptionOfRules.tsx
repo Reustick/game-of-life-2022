@@ -18,7 +18,7 @@ const Description = styled.div`
 
 export const DescriptionOfRules = () => {
   return (
-    <Description>
+    <Description role="description">
       Не стесняйся добавлять ячейки во время игры. Клетки светло-красного цвета
       моложе, темно-красные - старше. Наслаждайся!
     </Description>
